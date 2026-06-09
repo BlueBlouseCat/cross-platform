@@ -165,7 +165,7 @@ QPushButton:disabled {
 }</string>
          </property>
          <property name="text">
-          <string>导航至页面1</string>
+          <string>test01</string>
          </property>
          <property name="checkable">
           <bool>true</bool>
@@ -257,7 +257,7 @@ QPushButton:disabled {
 }</string>
          </property>
          <property name="text">
-          <string>导航至页面2</string>
+          <string>test02</string>
          </property>
          <property name="checkable">
           <bool>true</bool>
@@ -349,7 +349,7 @@ QPushButton:disabled {
 }</string>
          </property>
          <property name="text">
-          <string>导航至页面3</string>
+          <string>test03_serial</string>
          </property>
          <property name="checkable">
           <bool>true</bool>

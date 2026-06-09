@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>resources/icons/green_point.png</file>
+    <file>resources/icons/orange_point.png</file>
+    <file>resources/icons/red_point.png</file>
+  </qresource>
+</RCC>
