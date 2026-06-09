@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>934</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    min-height: 38px;
+    padding: 8px 18px;
+
+    color: #C9D7FF;
+    background-color: rgba(18, 26, 48, 210);
+
+    border: 1px solid rgba(80, 130, 255, 90);
+    border-radius: 10px;
+
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* 鼠标悬停 */
+QPushButton:hover {
+    color: #FFFFFF;
+    background-color: rgba(38, 56, 105, 230);
+
+    border: 1px solid rgba(90, 170, 255, 180);
+}
+
+/* 鼠标按下 */
+QPushButton:pressed {
+    background-color: rgba(25, 38, 78, 240);
+    border: 1px solid rgba(120, 210, 255, 220);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/* checkable 选中状态 */
+QPushButton:checked {
+    color: #FFFFFF;
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #2563EB,
+        stop:0.55 #7C3AED,
+        stop:1 #06B6D4
+    );
+
+    border: 1px solid rgba(180, 230, 255, 230);
+    font-weight: 700;
+}
+
+/* 选中后再悬停 */
+QPushButton:checked:hover {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #3B82F6,
+        stop:0.55 #8B5CF6,
+        stop:1 #22D3EE
+    );
+
+    border: 1px solid rgba(220, 250, 255, 255);
+}
+
+/* 禁用状态 */
+QPushButton:disabled {
+    color: rgba(180, 190, 210, 90);
+    background-color: rgba(30, 35, 45, 120);
+    border: 1px solid rgba(120, 130, 150, 60);
+}</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QPushButton" name="pb_navi_1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    min-height: 38px;
+    padding: 8px 18px;
+
+    color: #C9D7FF;
+    background-color: rgba(18, 26, 48, 210);
+
+    border: 1px solid rgba(80, 130, 255, 90);
+    border-radius: 10px;
+
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* 鼠标悬停 */
+QPushButton:hover {
+    color: #FFFFFF;
+    background-color: rgba(38, 56, 105, 230);
+
+    border: 1px solid rgba(90, 170, 255, 180);
+}
+
+/* 鼠标按下 */
+QPushButton:pressed {
+    background-color: rgba(25, 38, 78, 240);
+    border: 1px solid rgba(120, 210, 255, 220);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/* checkable 选中状态 */
+QPushButton:checked {
+    color: #FFFFFF;
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #2563EB,
+        stop:0.55 #7C3AED,
+        stop:1 #06B6D4
+    );
+
+    border: 1px solid rgba(180, 230, 255, 230);
+    font-weight: 700;
+}
+
+/* 选中后再悬停 */
+QPushButton:checked:hover {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #3B82F6,
+        stop:0.55 #8B5CF6,
+        stop:1 #22D3EE
+    );
+
+    border: 1px solid rgba(220, 250, 255, 255);
+}
+
+/* 禁用状态 */
+QPushButton:disabled {
+    color: rgba(180, 190, 210, 90);
+    background-color: rgba(30, 35, 45, 120);
+    border: 1px solid rgba(120, 130, 150, 60);
+}</string>
+         </property>
+         <property name="text">
+          <string>导航至页面1</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pb_navi_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    min-height: 38px;
+    padding: 8px 18px;
+
+    color: #C9D7FF;
+    background-color: rgba(18, 26, 48, 210);
+
+    border: 1px solid rgba(80, 130, 255, 90);
+    border-radius: 10px;
+
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* 鼠标悬停 */
+QPushButton:hover {
+    color: #FFFFFF;
+    background-color: rgba(38, 56, 105, 230);
+
+    border: 1px solid rgba(90, 170, 255, 180);
+}
+
+/* 鼠标按下 */
+QPushButton:pressed {
+    background-color: rgba(25, 38, 78, 240);
+    border: 1px solid rgba(120, 210, 255, 220);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/* checkable 选中状态 */
+QPushButton:checked {
+    color: #FFFFFF;
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #2563EB,
+        stop:0.55 #7C3AED,
+        stop:1 #06B6D4
+    );
+
+    border: 1px solid rgba(180, 230, 255, 230);
+    font-weight: 700;
+}
+
+/* 选中后再悬停 */
+QPushButton:checked:hover {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #3B82F6,
+        stop:0.55 #8B5CF6,
+        stop:1 #22D3EE
+    );
+
+    border: 1px solid rgba(220, 250, 255, 255);
+}
+
+/* 禁用状态 */
+QPushButton:disabled {
+    color: rgba(180, 190, 210, 90);
+    background-color: rgba(30, 35, 45, 120);
+    border: 1px solid rgba(120, 130, 150, 60);
+}</string>
+         </property>
+         <property name="text">
+          <string>导航至页面2</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pb_navi_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    min-height: 38px;
+    padding: 8px 18px;
+
+    color: #C9D7FF;
+    background-color: rgba(18, 26, 48, 210);
+
+    border: 1px solid rgba(80, 130, 255, 90);
+    border-radius: 10px;
+
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* 鼠标悬停 */
+QPushButton:hover {
+    color: #FFFFFF;
+    background-color: rgba(38, 56, 105, 230);
+
+    border: 1px solid rgba(90, 170, 255, 180);
+}
+
+/* 鼠标按下 */
+QPushButton:pressed {
+    background-color: rgba(25, 38, 78, 240);
+    border: 1px solid rgba(120, 210, 255, 220);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/* checkable 选中状态 */
+QPushButton:checked {
+    color: #FFFFFF;
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #2563EB,
+        stop:0.55 #7C3AED,
+        stop:1 #06B6D4
+    );
+
+    border: 1px solid rgba(180, 230, 255, 230);
+    font-weight: 700;
+}
+
+/* 选中后再悬停 */
+QPushButton:checked:hover {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #3B82F6,
+        stop:0.55 #8B5CF6,
+        stop:1 #22D3EE
+    );
+
+    border: 1px solid rgba(220, 250, 255, 255);
+}
+
+/* 禁用状态 */
+QPushButton:disabled {
+    color: rgba(180, 190, 210, 90);
+    background-color: rgba(30, 35, 45, 120);
+    border: 1px solid rgba(120, 130, 150, 60);
+}</string>
+         </property>
+         <property name="text">
+          <string>导航至页面3</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
